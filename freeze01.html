@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freeze 阻止修改property</title>
+    <!--1.导入VUE的包-->
+    <script src="../lib/vue-2.4.0.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>{{foo}}</p>
+<button v-on:click = "foo='baaaa'"> change it</button>
+</div>
+
+<script>
+ var obj = {
+     foo:'rrrrr'
+ }
+
+
+ Object.freeze(obj)
+    new Vue({
+        el:"#app",
+        data: obj
+    })
+
+</script>
+
+</body>
+</html>
