@@ -1,0 +1,23 @@
+export default{
+    treelist:  [{"id":1,"parentId":0,"orgType":1,"orgName":"MicroSoft"},
+{"id":2,"parentId":1,"orgType":2,"orgName":"TestDomain1"},
+{"id":3,"parentId":1,"orgType":2,"orgName":"TestDomain2"},
+{"id":4,"parentId":1,"orgType":2,"orgName":"TestDomain3"},
+{"id":5,"parentId":2,"orgType":2,"orgName":"TestDomain1_1"},
+{"id":6,"parentId":2,"orgType":2,"orgName":"TestDomain1_2"},
+{"id":7,"parentId":3,"orgType":2,"orgName":"TestDomain2_1"},
+{"id":8,"parentId":3,"orgType":2,"orgName":"TestDomain2_2"},
+{"id":9,"parentId":4,"orgType":2,"orgName":"TestDomain3_1"},
+{"id":10,"parentId":4,"orgType":2,"orgName":"TestDomain3_2"},
+{"id":11,"parentId":0,"orgType":1,"orgName":"FaceBook"},
+{"id":12,"parentId":11,"orgType":2,"orgName":"TestDomain4"},
+{"id":13,"parentId":11,"orgType":2,"orgName":"TestDomain5"},
+{"id":14,"parentId":11,"orgType":2,"orgName":"TestDomain6"},
+{"id":15,"parentId":12,"orgType":2,"orgName":"TestDomain4_1"},
+{"id":16,"parentId":12,"orgType":2,"orgName":"TestDomain4_2"},
+{"id":17,"parentId":13,"orgType":2,"orgName":"TestDomain5_1"},
+{"id":18,"parentId":13,"orgType":2,"orgName":"TestDomain5_2"},
+{"id":19,"parentId":14,"orgType":2,"orgName":"TestDomain6_1"},
+{"id":20,"parentId":14,"orgType":2,"orgName":"TestDomain6_2"},
+{"id":21,"parentId":0,"orgType":1,"orgName":"Google"}]
+}
